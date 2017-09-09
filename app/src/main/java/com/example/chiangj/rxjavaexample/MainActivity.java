@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onNext(@NonNull Member[] members) {
                         StringBuilder builder = new StringBuilder();
                         for(Member m : members){
-                            builder.append(m.login);
+                            builder.append(m);
                             builder.append("\n");
                         }
                         TextView textView = (TextView) findViewById(R.id.text_rxjava_result);

@@ -7,5 +7,5 @@ import java.util.Map;
  */
 
 public class Member {
-    String login;
+    //String login;
 }
